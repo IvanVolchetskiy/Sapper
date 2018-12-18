@@ -1,0 +1,194 @@
+*{
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  margin: auto;
+}
+
+body{
+  background-color: rgb(17, 10, 109);
+}
+
+.Settings input{
+  background-color: white;
+  padding: 10px;
+  margin-right: 30px;
+  margin-left: 10px;
+  width: 70px;
+  color: rgb(17, 10, 109);
+  font-size: 20px;
+}
+
+.Settings {
+  font-size: 30px;
+  color: white;
+  margin-top: 20px;
+  margin-left: 25%;
+  margin-bottom: 20px;
+}
+
+/*input[type="number"] {
+  width: 50px;
+  padding: 1px;
+  background-color: grey;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: monospace;
+}*/
+
+#Demineur {
+  width: 360px;
+  height: 412px;
+  background-color: white;
+  padding: 0px;
+  border: 2px solid white;
+}
+
+/*input[type="button"] {
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+}*/
+
+input[type='button'].square {
+  margin: 0px;
+  padding: 0px;
+  width: 30px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: white;
+  display: inline-block;
+  float: left;
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  border-right: 3px solid #110a6d;
+  border-bottom: 3px solid rgb(17, 10, 109);
+}
+
+/*input[type='button'].square:active,*/
+input[type='button'].square.active {
+  background-color: #BFBFBF;
+  border-top: 3px solid #BFBFBF;
+  border-left: 3px solid #BFBFBF;
+  border-right: 3px solid #BFBFBF;
+  border-bottom: 3px solid #BFBFBF;
+}
+
+#scoreboard {
+  padding: 10px;
+  width: auto;
+  height: 30px; 
+  background-color: white;
+  color: rgb(17, 10, 109);
+  font-size: 20px;
+  text-align: center;
+  /*border-top: 3px solid #707070;
+  border-left: 3px solid #707070;*/
+  border-right: 3px solid white;
+  border-bottom: 3px solid rgb(17, 10, 109);
+}
+
+#scoreboard .panel {
+  display: inline-block;
+  padding: 1px;
+  background-color: rgb(17, 10, 109);
+  color: white;
+  font-weight: bold; 
+  font-family: monospace;
+ /* border-top: 1px solid #707070;
+  border-left: 1px solid #707070;*/
+  border-right: 1px solid #F0F0F0;
+  border-bottom: 1px solid #F0F0F0;
+}
+
+#scoreboard div{
+  margin: 0 20px 0 0 ;
+}
+
+.buttonStart button{
+  margin-left: 46.2%;
+  height: 50px;
+  width: 100px;
+  background-color: white;
+  color: rgb(17, 10, 109);
+  font-size: 20px;
+}
+
+
+@media screen and (max-width: 1010px) {
+  #Demineur {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    width: 760px;
+    height: 832px;
+    background-color: white;
+    padding: 0px;
+    border: 2px solid white;
+  }
+
+
+  input[type='button'].square {
+    margin: 0px;
+    padding: 0px;
+    width: 63.3px;
+    height: 63.3px;
+    font-weight: bold;
+    font-size: 50px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    float: left;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid #110a6d;
+    border-bottom: 3px solid rgb(17, 10, 109);
+  }
+
+  #scoreboard {
+    padding: 10px;
+    width: auto;
+    height: 50px;
+    font-size: 43px;
+    background-color: white;
+    color: rgb(17, 10, 109);
+    text-align: center;
+    /*border-top: 3px solid #707070;
+    border-left: 3px solid #707070;*/
+    border-right: 3px solid white;
+    border-bottom: 3px solid rgb(17, 10, 109);
+  }
+
+  #scoreboard .panel {
+    display: inline-block;
+    padding: 1px;
+    background-color: rgb(17, 10, 109);
+    color: white;
+    font-weight: bold;
+    font-size: 37px;
+    font-family: monospace;
+   /* border-top: 1px solid #707070;
+    border-left: 1px solid #707070;*/
+    border-right: 1px solid #F0F0F0;
+    border-bottom: 1px solid #F0F0F0;
+  }
+
+  .Settings {
+    display: none;
+  }
+
+  
+
+  .buttonStart button{
+    margin-left: 41%;
+    height: 80px;
+    width: 220px;
+    background-color: white;
+    color: rgb(17, 10, 109);
+    font-size: 50px;
+  }
+  
+}

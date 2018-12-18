@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" type='text/css'/>
+        <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
+    </head>
+        <body>
+                <div class = "Settings" id="Options">Number of mines
+                        <input type="number" name="nbMines"  value="10">Columns
+                        <input type="number" name="columns" id = "line" min = "8" value="12">&nbsp;Lines
+                        <input type="number" name="lines" min = "8" value="12">
+                </div>
+
+                <div id="Demineur">
+                        <div id="scoreboard">Mines
+                            <div id="score-bomb-count" class="panel left">000</div>&nbsp;&nbsp;Time
+                            <div id="score-time-count" class="panel right">000</div>
+                        </div>
+                        <div id='Mines'></div>
+                    </div>
+                    <br>
+                    <div class = "buttonStart">
+                        <button onclick="init()">Start</button>
+                    </div>
+
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+                        </script>
+                    <script src = "skript.js">
+                        </script>
+        </body>
+        </html>
+
