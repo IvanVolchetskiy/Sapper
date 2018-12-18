@@ -3,8 +3,8 @@ var toDiscover;
 var arrayMines = new Array();
 var timer = false;
 var count = 0;
-var bombURL = "bomb1.jpg";
-var flagURL = "flag1.jpg";
+var bombURL = "images/bomb1.jpg";
+var flagURL = "images/flag1.jpg";
 
 
 
